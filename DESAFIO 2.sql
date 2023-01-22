@@ -1,0 +1,7 @@
+-- ### DESAFIO 2 ###
+/*
+QUANTOS SOBRENOMES ÚNICOS TEMOS EM NOSSA TABELA person.Person?
+*/
+
+SELECT DISTINCT LastName
+FROM Person.Person;
