@@ -6,9 +6,9 @@ para inspeção
 
 */
 
-SELECT *
+SELECT Name
 FROM Production.Product
-WHERE Weight > 500 and Weight < 700;
+WHERE Weight > 500 and Weight <= 700;
 
 -- DESAFIO 3.b
 /*
@@ -33,7 +33,7 @@ Um usuário chamado Peter Krebs está devendo um pagamento. Consiga o e-mail del
 -- Encontrado o BusinessEntityID do Peter Krebs com o codigo abaixo
 SELECT *
 FROM Person.Person
-WHERE FirstName = 'Peter' and LastName = 'Krebs'
+WHERE FirstName = 'Peter' and LastName = 'Krebs';
 
 -- Recuperado o E-mail do cara com o código abaixo, sabendo agora o ID dele
 
