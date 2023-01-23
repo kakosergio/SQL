@@ -1,0 +1,2 @@
+--! DESAFIO 6.a
+--? Quantos produtos temos cadastrados no sistema que custam mais que 1500 dolares?
